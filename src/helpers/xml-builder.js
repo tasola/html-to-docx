@@ -2162,4 +2162,5 @@ export {
   buildUnderline,
   buildDrawing,
   fixupLineHeight,
+  fixupColorCode,
 };
