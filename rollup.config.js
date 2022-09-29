@@ -8,7 +8,7 @@ import builtins from 'rollup-plugin-node-builtins';
 import * as meta from './package.json';
 
 export default {
-  input: 'index.js',
+  input: 'src/index.js',
   external: ['color-name', 'escape-html', 'html-to-vdom', 'jszip', 'virtual-dom', 'xmlbuilder2'],
   plugins: [
     resolve(),
